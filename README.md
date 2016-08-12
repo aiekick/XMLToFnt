@@ -1,12 +1,23 @@
 # XMLToFnt
-Convert an XML Generic SpriteFrame from TexturePacker (https://www.codeandweb.com/texturepacker)
-to a Bitmap Font File (*.fnt)
+this tool Convert an XML Generic SpriteFrame from TexturePacker to a Bitmap Font File (*.fnt) 
 
-The tool convert basically the xml to the fnt, so the name of the pciture of the sprite frame must be the char wanted, except for space char. because we cant name a file with the char ' '.
+GitHub : https://github.com/aiekick/XMLToFnt
 
-exemple : 
+The tool convert basically the xml to the fnt, so the name of the picture of the sprite frame must be the char wanted, except for space char. because we cant name a file with the char ' '.
 
-Select this in TexturePacker :
+So all pricture of the sprite frame must have the name of the corresponding ASCII char.
+Except for Space shar, and the picture must be called space.
+
+dont forget to trim the name in the TexturePacket option, for avoid have name like space.png in the file.
+
+but feel free to modify what you want :)
+
+TexturePacker => (https://www.codeandweb.com/texturepacker)
+Fnt File format => http://www.angelcode.com/products/bmfont/doc/file_format.html
+
+Tuto : 
+
+Select this file format in TexturePacker :
 
 ![readme_picture](readme.png)
 
@@ -79,7 +90,7 @@ triangles  => sprite triangulation, 3 vertex indices per triangle
  
  and after the exec of tool we have that in a (*.fnt) file:
  
- the header of this file is copy part of existing files i have, so you can customise it according ot your needs :)
+ the header of this file is copy part of existing files i have, so you can customise it according to your needs :)
  
  the tool is just a easier way to get the chars lines..
  ```
@@ -129,3 +140,4 @@ char id=89 x=1264 y=1316 width=244 height=320 xoffset=0 yoffset=0 xadvance=244 p
 char id=90 x=1516 y=1316 width=244 height=320 xoffset=0 yoffset=0 xadvance=244 page=0 chnl=15
  ```
 
+Enjoy :)
