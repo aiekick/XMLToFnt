@@ -8,7 +8,7 @@ exemple :
 
 Select this in TexturePacker :
 
-![Help image](https://github.com/aiekick/XMLToFnt/readme.png)
+![readme_picture](readme.png)
 
 In the TexturePacker Generic (*.xml) we have that :
 
