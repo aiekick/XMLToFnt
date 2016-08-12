@@ -16,7 +16,7 @@ TexturePacker => https://www.codeandweb.com/texturepacker
 
 Fnt File format => http://www.angelcode.com/products/bmfont/doc/file_format.html
 
-Tuto : 
+## Tuto : 
 
 Select this file format in TexturePacker :
 
