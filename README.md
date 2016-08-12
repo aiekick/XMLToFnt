@@ -3,14 +3,17 @@ this tool Convert an XML Generic SpriteFrame from TexturePacker to a Bitmap Font
 
 GitHub : https://github.com/aiekick/XMLToFnt
 
-The tool convert basically the xml to the fnt, so the name of the picture of the sprite frame must be the char wanted, except for space char. because we cant name a file with the char ' '.
+The tool convert basically the xml to the fnt.
 
-So all pricture of the sprite frame must have the name of the corresponding ASCII char.
-Except for Space shar, and the picture must be called space.
+For Simplicity the name of the picture of the sprite frame must be the wanted ASCII char.
+Except for space char. because we cant name a file with the char ' '
+
+So we have file named like that "a.png" and the space like that : "space.png"
 
 dont forget to trim the name in the TexturePacket option, for avoid have name like space.png in the file.
+The tool convert the one letter name of sprites to the corresponding ASCII char code.
 
-but feel free to modify what you want :)
+but feel free to modify what you want four your needs :)
 
 TexturePacker => https://www.codeandweb.com/texturepacker
 
