@@ -12,7 +12,8 @@ dont forget to trim the name in the TexturePacket option, for avoid have name li
 
 but feel free to modify what you want :)
 
-TexturePacker => (https://www.codeandweb.com/texturepacker)
+TexturePacker => https://www.codeandweb.com/texturepacker
+
 Fnt File format => http://www.angelcode.com/products/bmfont/doc/file_format.html
 
 Tuto : 
